@@ -32,7 +32,7 @@ const App = () => {
           🐱 Bored? Some Advice + Learn This!
         </h1>
         <p className="text-xl text-yellow-600 font-semibold mb-2">
-          🤸‍♂️ Your Advice:{" "}
+          ✨ Your Advice:{" "}
         </p>
         <p className="mb-5">{suggestion && "➤" + " " + suggestion}</p>
         <p className="text-xl text-red-500 font-semibold mb-2">
