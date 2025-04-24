@@ -8,9 +8,9 @@ const App = () => {
 
   const getSugesstion = async () => {
     try {
-      const url = `https://cors-anywhere.herokuapp.com/https://bored-api.appbrewery.com/random`;
+      const url = `https://api.adviceslip.com/advice`;
       const res = await axios.get(url);
-      setSuggestion(res.data.activity);
+      setSuggestion(res.data.slip.advice);
     } catch (error) {
       console.log(error.response.data.message);
     }
@@ -29,10 +29,10 @@ const App = () => {
     <div className="h-screen flex flex-col justify-center items-center bg-gray-100 px-5 md:px-0">
       <div className="text-center bg-white p-8 shadow rounded-2xl w-full max-w-md md:max-w-xl">
         <h1 className="text-3xl font-bold mb-4">
-          🐱 Bored? Do This + Learn This!
+          🐱 Bored? Some Advice + Learn This!
         </h1>
         <p className="text-xl text-yellow-600 font-semibold mb-2">
-          🤸‍♂️ Your Activity Suggestion:{" "}
+          🤸‍♂️ Your Advice:{" "}
         </p>
         <p className="mb-5">{suggestion && "➤" + " " + suggestion}</p>
         <p className="text-xl text-red-500 font-semibold mb-2">
