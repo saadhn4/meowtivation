@@ -1,12 +1,29 @@
-# React + Vite
+# 🐱 Do This + Learn This! 🤸‍♂️🧠
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun little React app that helps you fight boredom by giving you a **random activity suggestion** and a **random cat fact** — at the same time! 🐾
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Features
 
-## Expanding the ESLint configuration
+- 🤸‍♂️ Suggests random activities using the [Bored API](https://www.boredapi.com/)
+- 🧠 Shows random cat facts using the [Cat Fact API](https://catfact.ninja/)
+- 🔄 Refresh button to generate new suggestions
+- 📱 Mobile-friendly & responsive design with Tailwind CSS
+- 🦶 Footer component included for a polished layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Tailwind CSS**
+- **Axios**
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/do-this-learn-this.git
+cd do-this-learn-this
+npm install
+npm run dev
